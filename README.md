@@ -6,7 +6,9 @@ It demonstrates how to use Selenium to interact with web elements like input fie
 
 
 ---
+
 The script is designed to work even if the position or properties of the HTML elements change. For minor changes, it works as-is. If locators change, I’ve used the Page Object Model (POM), so only small updates are needed. Even with major changes, updating the POM class is enough to keep it working.
+
 ---
 
 ---
