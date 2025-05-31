@@ -1,6 +1,13 @@
 # 🧪 Selenium Automation - Automation Practice Form (C#)
 
-This project demonstrates the **Page Object Model (POM)** design pattern using **Selenium WebDriver with C#**. It automates filling out and submitting a sample form hosted at [CloudQA Automation Practice Form](https://app.cloudqa.io/home/AutomationPracticeForm).
+This project contains a C# program using **Selenium WebDriver** that automatically fills out and submits a sample form hosted at [CloudQA Automation Practice Form](https://app.cloudqa.io/home/AutomationPracticeForm).
+
+It demonstrates how to use Selenium to interact with web elements like input fields, checkboxes, radio buttons, file uploads, and rich text editors, all through an automated browser session.
+
+
+---
+The script is designed to work even if the position or properties of the HTML elements change. For minor changes, it works as-is. If locators change, I’ve used the Page Object Model (POM), so only small updates are needed. Even with major changes, updating the POM class is enough to keep it working.
+---
 
 ---
 demo video 
